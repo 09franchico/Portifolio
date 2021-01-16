@@ -1,5 +1,6 @@
 body{
     margin: 0px;
+    background-color: rgb(35, 35, 37);
 }
 
 
@@ -171,14 +172,14 @@ label{
 
 .cont-principal{
     display: flex;
-    background-color:  rgb(133, 198, 228);
+    background-color:  rgb(9, 150, 172);
     height: 450px;
     width: 1000px;
     border-bottom-right-radius: 100px;
     overflow-x:hidden;
     overflow-y:hidden;
     transition: all ease .5s;
-    border-top: 2px solid rgb(14, 4, 56);
+    border-top: 2px solid rgb(255, 255, 255);
 }
 
 
@@ -194,7 +195,7 @@ label{
 
 #texto{
     align-items: center;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     width: 400px;
     height: 400px;

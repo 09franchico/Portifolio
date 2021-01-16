@@ -1,4 +1,87 @@
+body{
+    margin: 0px;
+}
+
+
+
+
+/*MENU*/
+
 .container{
     background-color: rgb(63, 63, 105);
     color: white;
+    display: flex;
+    height: 80px;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px;
+    list-style-type: none;
+}
+li:hover{
+    border-bottom: 2px solid rgb(228, 225, 225);
+    color: rgb(132, 248, 167);
+    cursor: pointer;
+    
+}
+
+/*modal*/
+.cont-modal{
+    display: flex;
+    justify-content: center;
+}
+.perfil{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    width: 400px;   
+}
+/*
+.obetivo{
+    background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid black;
+    width: 400px;   
+*/
+
+
+
+
+
+
+/*PRINCIPAL*/
+
+.cont-principal{
+    display: flex;
+    display: none;
+}
+
+
+.foto{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+#foto{
+    border-radius: 50%;
+
+}
+#texto{
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+    width: 400px;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+p{
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    margin: 5px;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
 }

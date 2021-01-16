@@ -1,6 +1,5 @@
 body{
     margin: 0px;
-    background-color: black;
 }
 
 
@@ -64,7 +63,6 @@ li:hover{
     background-color: rgb(247, 247, 247);
     border-top: 2px solid rgb(138, 185, 28);
     width: 600px;
-    margin-top: 30px;
     border-radius: 5px;
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
@@ -80,7 +78,17 @@ li:hover{
 
 }
 h2{
-    color: rgb(27, 27, 27);
+    color:  rgb(63, 63, 105);
+    margin-top: 2px;
+    font-size: 17pt;
+}
+h3{
+    font-size: 12pt;
+
+}
+#teste{
+    margin-top: -15px;
+    margin-left: 35px;
 }
 
 .experiencia{
@@ -163,14 +171,14 @@ label{
 
 .cont-principal{
     display: flex;
-    background-color:  rgb(207, 199, 199);
+    background-color:  rgb(133, 198, 228);
     height: 450px;
     width: 1000px;
     border-bottom-right-radius: 100px;
     overflow-x:hidden;
     overflow-y:hidden;
     transition: all ease .5s;
-    border-top: 2px solid rgb(138, 185, 28);
+    border-top: 2px solid rgb(14, 4, 56);
 }
 
 
@@ -181,8 +189,9 @@ label{
 }
 #foto{
     border-radius: 50%;
-
+    border: 20px solid rgb(238, 234, 234);
 }
+
 #texto{
     align-items: center;
     background-color: white;
@@ -191,6 +200,7 @@ label{
     height: 400px;
     margin-top: 20px;
     margin-left: 50px;
+    border-right: 5px solid rgb(119, 95, 252);
 }
 
 p{

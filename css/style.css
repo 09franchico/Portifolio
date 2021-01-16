@@ -12,6 +12,7 @@ body{
     color: white;
     display: flex;
     height: 80px;
+    justify-content: center;
 }
 ul{
     display: flex;
@@ -27,16 +28,132 @@ li:hover{
     
 }
 
+
+
 /*modal*/
 .cont-modal{
     display: flex;
     justify-content: center;
+    margin-top: 40px;
+   
+    
 }
 .perfil{
-    background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid black;
-    width: 400px;   
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px; 
+    height: 200px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;  
+    border-radius: 5px;
+    display: none;
 }
+.obetivo{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px; 
+    height: 200px;
+    margin-top: 50px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;  
+    border-radius: 5px;
+    display: none;
+
+}
+.formacao{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px;
+    margin-top: 50px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;  
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+    display: none;
+
+}
+h2{
+    color: rgb(27, 27, 27);
+}
+
+.experiencia{
+        background-color: rgb(247, 247, 247);
+        border-top: 2px solid rgb(138, 185, 28);
+        width: 600px; 
+        height: 300px;
+        margin-top: 50px;
+        overflow-x:hidden;
+        overflow-y:auto;
+        transition: all ease .5s;  
+        border-radius: 5px; 
+        display: none;
+}
+button{
+    width: 300px;
+    height: 30px;
+    border: none;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color:rgb(247, 247, 247);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+button:hover{
+    background-color:rgb(173, 122, 221);
+    border-bottom: 2px solid rgb(5, 4, 4);
+}
+
+label{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.hab-ferr{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px;
+    margin-top: 50px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;  
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+    display: none;
+
+}
+.cursos{
+    background-color: rgb(247, 247, 247);
+    border-top: 2px solid rgb(138, 185, 28);
+    width: 600px;
+    margin-top: 50px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    transition: all ease .5s;  
+    border-radius: 5px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 2em;
+    padding: 10px;
+    font-size: 13pt;
+    color: rgb(139, 136, 136);
+    display: none;
+
+}
+
 /*
 .obetivo{
     background-color: rgb(255, 255, 255);
@@ -53,14 +170,13 @@ li:hover{
 
 .cont-principal{
     display: flex;
-    display: none;
 }
 
 
 .foto{
     display: flex;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
 }
 #foto{
@@ -72,7 +188,7 @@ li:hover{
     background-color: white;
     border-radius: 10px;
     width: 400px;
-    margin-top: 70px;
+    margin-top: 20px;
     margin-left: 50px;
 }
 
